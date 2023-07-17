@@ -16,7 +16,6 @@ request.onload = function () {
 
     const list = document.createElement('ol');
     country_details.forEach((country) => {
-        console.log(country)
         const list_item = document.createElement('li');
         list_item.innerHTML = "<span> Name: " + country.name + " <br> Region: " + country.region + "  <br> Sub Region: " + country.subregion + "  <br> Population: " + country.population + "</span>"
         list.appendChild(list_item);
